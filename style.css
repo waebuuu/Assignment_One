@@ -51,7 +51,7 @@ aside
 }
 mark
 {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 figure
 {
@@ -59,7 +59,7 @@ figure
     background-color: white;
     width: 220px;
     height: 220px;
-    margin: 5px;
+    margin: 25px;
     padding: 5px;
     border: 2px solid black;
 }
