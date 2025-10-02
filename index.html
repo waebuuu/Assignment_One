@@ -1,50 +1,35 @@
-<!--The HTML5 doctype declaration is very simple-->
-<!DOCTYPE HTML>
-<!--All page content is inside the HTML element-->
+<!DOCTYPE html>
 <html>
-<!--Head element content is not visible in a browser window-->
-<head>
-<!--The UTF-8 character set provides the most support for all symbols and
-characters-->
-<meta charset="UTF-8">
-<title>HTML Template</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<!--Content visible in the browser's window is inside the HTML element-->
-<body>
-<!--All our content is enclosed in the wrapper ID style-->
-<div id="wrapper">
-<!--The banner ID style is inside the wrapper ID style-->
-<div id="banner">
-<h1>Website for INFR3120 Thursday Section</h1>
-</div>
-<!--left-column ID style is floated left and used for navigation-->
-<div id="left-column">
-<h3>Links...</h3>
-<!--ul mean unordered list-->
-<!--ol mean ordered list-->
-<ol>
-<li> <a href="semantic.html">Semantic Page</a></li>
-<li> <a href="contact.html">Feedback Form</a></li>
-<li> <a href="video.html">Video</a></li>
-</ol>
-</div>
-<!--right-column ID style is floated right and used for content-->
-<div id="right-column">
-<h2>Right Column Heading Here </h2>
-<p>Right column content here </p>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-</div>
-<!--The clear class style clears (removes) float-->
-<div class="clear"></div>
-<div id="footer">
-<h5>Site by INFR3120/Ahmed</h5>
-</div>
-</div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Semantic Tags</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header class="homepage">
+                <h1> Welcome to my website </h1>
+                <nav class="homenavi" class="pt-serif-bold">
+                    <a href="semantic.html">About Me</a> | 
+                    <a href="contact.html">Feedback Form</a> | 
+                    <a href="projects.html">My Projects</a> 
+                </nav>
+            </header>
+            <article>            
+                <h3 class="pt-serif-bold"> This website was created for course INFR 3120U </h3>
+                <p class="pt-serif-bold">Using the navigation bar above to view my acheivement and to learn more about me </p>
+            </article>
+            <footer>
+                <h5> Site made by Zahra Mirza ©</h5>
+                 <nav>
+                    <a href="semantic.html">About Me</a> | 
+                    <a href="contact.html">Feedback Form</a> | 
+                    <a href="projects.html">My Projects</a> 
+                </nav>
+            </footer>
+        </div>
+    </body>
 </html>
