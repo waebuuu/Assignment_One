@@ -2,25 +2,26 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <title>Semantic Tags</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" media="only screen and (min-width 960px)"  href="fluid.css"> 
+        <link rel="stylesheet" media="only screen and (min-width:481px) and (max-width:959px)"  href="tablet.css"> 
+        <link rel="stylesheet" media="only screen and (max-width:480px)" href="phone.css">
+
+        <title>Home</title>
     </head>
     <body>
         <div id="wrapper">
             <header class="homepage">
                 <h1> Welcome to my website </h1>
-                <nav class="homenavi" class="pt-serif-bold">
+                <nav>
                     <a href="semantic.html">About Me</a> | 
                     <a href="contact.html">Feedback Form</a> | 
                     <a href="projects.html">My Projects</a> 
                 </nav>
             </header>
             <article>            
-                <h3 class="pt-serif-bold"> This website was created for course INFR 3120U </h3>
-                <p class="pt-serif-bold">Using the navigation bar above to view my acheivement and to learn more about me </p>
+                <h3> This website was created for course INFR 3120U </h3>
+                <p class="homepara">Use the navigation bar above to learn more about me! You can find out what Projects I was up too, a bit about me personally and fell free to contact me about anything youd like!</p>
             </article>
             <footer>
                 <h5> © 2025 Zahra Mirza</h5>

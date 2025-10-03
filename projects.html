@@ -2,9 +2,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>HTML Template</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" media="only screen and (min-width 960px)"  href="fluid.css"> 
+    <link rel="stylesheet" media="only screen and (min-width:481px) and (max-width:959px)"  href="tablet.css"> 
+    <link rel="stylesheet" media="only screen and (max-width:480px)" href="phone.css">
 </head>
 <body>
 <div id="wrapper">
@@ -15,7 +18,7 @@
                 <nav>
                     <a href="index.html">Home Page</a> | 
                     <a href="contact.html">Feedback Form</a> | 
-                    <a href="projects.html">My Projects</a> | 
+                    <a href="semantic.html">About Me</a>  
                 </nav>
             </header>
 <h2>Projects & Assignments </h2>
@@ -43,9 +46,16 @@
 </div>
 <!--The clear class style clears (removes) float-->
 <div class="clear"></div>
-<div id="footer">
-<h5> © 2025 Zahra Mirza</h5>
-<h5> Contact: zahra.mirza@ontariotechu.net </h5>
+<footer>
+    <h5> © 2025 Zahra Mirza</h5>
+    <h5> Contact: <a href="mailto:zahra.mirza@ontariotechu.net"> zahra.mirza@ontariotechu.net </a></h5>
+     <nav>
+        <a href="semantic.html">About Me</a> | 
+        <a href="contact.html">Feedback Form</a> | 
+        <a href="projects.html">My Projects</a> 
+    </nav>
+</footer>
+   
 </div>
 </div>
 </body>

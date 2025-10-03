@@ -1,0 +1,32 @@
+/* Fluid Layout Fixes */
+#wrapper {
+    width: 66%;
+    min-height: 800px;   /* changed from height: 800px */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: LightSlateGrey;
+    overflow: auto;      /* ensures floats don’t break wrapper */
+}
+
+#right-column {
+    float: right;
+    width: 66%;
+    min-height: 600px;   /* changed from height: 600px */
+    background-color: LightGray;
+}
+
+#left-column {
+    float: left;
+    width: 33%;
+    min-height: 600px;   /* changed from height: 600px */
+    background-color: silver;
+}
+
+article {
+    min-height: 520px;   /* flexible instead of fixed */
+}
+
+/* clearfix helper if needed */
+.clear {
+    clear: both;
+}

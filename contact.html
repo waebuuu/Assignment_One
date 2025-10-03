@@ -1,7 +1,10 @@
 <html>
     <head>
         <title>Feedback Form</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" media="only screen and (min-width 960px)"  href="fluid.css"> 
+        <link rel="stylesheet" media="only screen and (min-width:481px) and (max-width:959px)"  href="tablet.css"> 
+        <link rel="stylesheet" media="only screen and (max-width:480px)" href="phone.css">
     </head>
     <body>
         <div id="wrapper">
@@ -10,8 +13,8 @@
                 <p> Please leave your enquires below </p>
                 <nav>
                     <a href="index.html">Home Page</a> | 
-                    <a href="About-Me.html">About Me Page</a> |
-                    <a href="projects.html">My Projects</a> |  
+                    <a href="semantic.html">About Me</a> </a> |
+                    <a href="projects.html">My Projects</a>   
                 </nav>
             </header>
             <form action="mailto:zahra.mirza@ontariotechu.net?subject=Feedback from website"
@@ -32,6 +35,11 @@
                 <input type="email" name="Email" size="40"
                 placeholder="Enter your email address" required>
             </p>
+             <p>
+                <label for="number">Phone Number: </label>
+                <input type="type" name="number" size="40"
+                placeholder="Enter phone number (no special chars)" required>
+            </p>
             <p>
                 <label for="comments">Comments: </label>
                 <br>
@@ -46,6 +54,15 @@
                 <input type="reset" value="Reset">
                 <input type="submit" value="Submit">
             </p> 
+             <footer>
+                <h5> © 2025 Zahra Mirza</h5>
+                <h5> Contact: zahra.mirza@ontariotechu.net </h5>
+                 <nav>
+                    <a href="semantic.html">About Me</a> | 
+                    <a href="contact.html">Feedback Form</a> | 
+                    <a href="projects.html">My Projects</a> 
+                </nav>
+            </footer>
         </div>
     </body>
 </html>

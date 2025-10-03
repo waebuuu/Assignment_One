@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,p,li {
 
 #wrapper {
     width: 100%;
-    min-height: 800px;   /* was height: 800px */
+    min-height: 800px;   /* flexible */
     margin-left: auto;
     margin-right: auto;
     background-color: DarkGrey;
@@ -23,22 +23,22 @@ h1,h2,h3,h4,h5,h6,p,li {
 
 #right-column {
     float: none;
-    min-height: 600px;   /* was height: 600px */
+    min-height: 600px;   /* flexible */
     background-color: DarkOrange;
 }
 
 #left-column {
     float: none;
-    min-height: 120px;   /* was height: 120px */
+    min-height: 120px;
 }
 
 #footer {
-    min-height: 80px;    /* was height: 80px */
+    min-height: 80px;
     background-color: black;
 }
 
 #banner {
-    min-height: 60px;    /* was height: 60px */
+    min-height: 60px;
     background-color: black;
 }
 

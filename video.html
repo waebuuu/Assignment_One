@@ -1,7 +1,11 @@
 <html>
     <head>
-        <title>HTML-5 Video Example</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Video</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" media="only screen and (min-width 960px)"  href="fluid.css"> 
+        <link rel="stylesheet" media="only screen and (min-width:481px) and (max-width:959px)"  href="tablet.css"> 
+        <link rel="stylesheet" media="only screen and (max-width:480px)" href="phone.css">
+
         <!--Javascript code-->
         <script src="video.js" defer></script>
     </head>
@@ -14,7 +18,7 @@
                     <a href="index.html">Home Page</a> | 
                     <a href="contact.html">Feedback Form</a> |
                     <a href="projects.html">My Projects</a> |  
-                    <a href="About-Me.html">About Me Page</a>
+                    <a href="semantic.html">About Me</a> </a>
                 </nav>
             </header>
         <video
@@ -26,10 +30,18 @@
         poster="poster.png"
         preload="auto">
             <source src="video.mp4" type="video/mp4">
-            <source src="on_record.ogv" type="video/ogv">
         </video> 
         <br> 
         <button onclick="playPause()">Play or Pause the Video</button>
+            <footer>
+                <h5> © 2025 Zahra Mirza</h5>
+                <h5> Contact: <a href="mailto:zahra.mirza@ontariotechu.net"> zahra.mirza@ontariotechu.net </a></h5>
+                 <nav>
+                    <a href="semantic.html">About Me</a> | 
+                    <a href="contact.html">Feedback Form</a> | 
+                    <a href="projects.html">My Projects</a> 
+                </nav>
+            </footer>
         </div>
     </body>
 </html>

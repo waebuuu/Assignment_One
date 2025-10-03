@@ -3,36 +3,40 @@
 /* Color Scheme : #6C2AF5, #AC93F4, #F46EE5, #F59F84, #F46175*/
 /* The body tag style applies to all elements on the page */
 
+
 body {
     /*background-color: rgb(0, 0, 0);*/
-    background: rgb(59, 2, 112); 
-    background: -moz-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%); 
-    background: -webkit-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%); 
-    background: -o-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%); 
+    background: rgb(59, 2, 112);
+    background: -moz-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%);
+    background: -webkit-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%);
+    background: -o-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%);
     background: linear-gradient(to bottom, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%);
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
     text-align: center;
 }
-header.homepage 
+header.homepage
 {
     background-color: rgb(252, 255, 155);
-    color: rgb(59, 2, 112); 
+    color: rgb(59, 2, 112);
     padding-bottom: 50px;
 }
-nav.homenavi
+p.homepara
 {
-  position: fixed;
-  top: 100px; 
-  left: 760px;
- 
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+
+
 }
-.project-header 
+.project-header
 {
     height: 200px;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#38006d+0,fff1f1+100 */
     background: linear-gradient(to bottom,  #38006d 0%,rgb(255, 241, 241) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
 
 
 }
@@ -41,7 +45,8 @@ header, footer
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#38006d+1,38006d+1,fff1f1+40,fff1f1+60,38006d+100 */
 background: linear-gradient(to right,  #38006d 1%,#38006d 1%,#fff1f1 40%,#fff1f1 60%,#38006d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-   color: rgb(0, 0, 0); 
+
+   color: rgb(0, 0, 0);
    padding-top: 5px;
    padding-bottom: 5px;
 }
@@ -67,6 +72,7 @@ aside
     background-color: rgb(255, 241, 241);
 }
 
+
 /* The right-column ID style is floated right */
 #right-column {
     float: right;
@@ -87,6 +93,7 @@ figure
     margin: 10px;
     border: 2px solid black;
 
+
     align-items: center;        /* vertical center */
     justify-content: center;    /* horizontal center */
 }
@@ -95,20 +102,23 @@ figcaption
     /*margin-top 1px;*/
     color: rgb(0, 0, 0);
 }
-.profile-pic 
+.profile-pic
 {
     float:left;
     margin: 10px;
     text-align:center
 }
 
-.about-text 
+
+.about-text
 {
     overflow: hidden;
     text-align: left;
     margin-top: 30px;
     margin-right: 20px;
 }
+
+
 
 
 article
@@ -128,6 +138,7 @@ h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
 }
 
+
 #footer {
     height: 80px;
     background-color: rgb(59, 2, 112);
@@ -135,10 +146,12 @@ h1,h2,h3,h4,h5,h6,p,li {
     padding-top: 20px;
 }
 
+
 #banner {
     height: 120px;
     background: linear-gradient(45deg, rgb(233, 179, 251), rgb(111, 0, 255));
 }
+
 
 /* Defining a style for a set of tags not separated by commas applies the style only to all tags within the preceding tag*/
 #banner h1 {
@@ -146,11 +159,12 @@ h1,h2,h3,h4,h5,h6,p,li {
     padding-top: 30px;
 }
 
+
 /* Advanced Web design relies on class or ID styles, never tables */
 .project-box {
     float: left;
     width: 48%;          
-    height: 250px;       
+    height: 250px;      
     margin: 1%;
     padding: 25px;
     opacity: .8;
@@ -161,45 +175,55 @@ h1,h2,h3,h4,h5,h6,p,li {
     border: 2px solid rgb(59, 2, 112);
 }
 
+
 /* The following pseudo-class applies to the box class when in a hovered state */
 .project-box:hover {
     opacity: 1;
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+100,f8b500+98,fbdf93+77;Orange+3D+%235 */
 background: radial-gradient(ellipse at center,  #fceabb 0%,#fccd4d 100%,#f8b500 98%,#fbdf93 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
+
 }
+
 
 .clear {
     clear: both;
 }
 
+
 video
-{ 
-    width: 400px; 
-    padding: 15px; 
-    margin: 15px; 
-    background-color:black; 
-    border:2px white solid; 
+{
+    width: 400px;
+    padding: 15px;
+    margin: 15px;
+    background-color:black;
+    border:2px white solid;
     box-shadow: 10px 10px 5px black;
 }
 
-button 
+
+button
 {
 background-color:rgb(111, 0, 255);
-margin: 15px; 
+margin: 15px;
 color:rgb(255, 241, 241);
 height:40px;
 border:2px white solid;
 border-radius: 5px;
 }
 
-button:hover 
-{ 
-    background-color:rgb(59, 2, 112); 
-    color:rgb(255, 241, 241); 
-    height:40px; 
-    border:2px white solid; 
-    box-shadow: -10px -10px 5px rgb(233, 179, 251); 
-    border-radius: 5px; 
+
+button:hover
+{
+    background-color:rgb(59, 2, 112);
+    color:rgb(255, 241, 241);
+    height:40px;
+    border:2px white solid;
+    box-shadow: -10px -10px 5px rgb(233, 179, 251);
+    border-radius: 5px;
 }
+
+
+
+
 
