@@ -11,30 +11,59 @@ h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
     margin-top: 0px;
 }
+header nav a {
+    display: inline-block;          
+    width: 20%;               /* nearly full width */
+    margin: 10px auto;        /* center the button */
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(59, 2, 112); /* button color */
+    color: rgb(255, 241, 241);             /* text color */
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+footer nav a {
+    display: inline-block;          
+    width: 20%;               /* nearly full width */
+    margin: 10px auto;        /* center the button */
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(250, 235, 146); /* button color */
+    color: black;             /* text color */
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
 
 #wrapper {
     width: 100%;
     min-height: 800px;   /* flexible */
     margin-left: auto;
     margin-right: auto;
-    background-color: DarkGrey;
+    background-color: rgb(111, 0, 255);
     overflow: auto;      /* contain floats */
 }
 
-#right-column {
-    float: none;
-    min-height: 600px;   /* flexible */
-    background-color: DarkOrange;
-}
-
-#left-column {
-    float: none;
-    min-height: 120px;
-}
 
 #footer {
-    min-height: 80px;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    height: 100px;  
+    padding-top: 20px;         
     background-color: black;
+}
+
+footer.projects
+{
+    margin-top: 1770px;
+}
+
+footer.adjust
+{
+    margin-top: 100%;
 }
 
 #banner {
@@ -42,19 +71,21 @@ h1,h2,h3,h4,h5,h6,p,li {
     background-color: black;
 }
 
-.box {
-    width: 45%;
+.project-box {
+    float: none;
+    width: 95%;     
+    margin:15px auto;
     min-height: 120px;
-    float: left;
-    background-color: black;
-    margin: 15px;
-    opacity: 1;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(59, 2, 112);
 }
+
 
 .button {
     font-size: x-large;
     text-decoration: none;
-    background-color: LightBlue;
+    background-color: rgb(250, 235, 146);
     display: block;
     width: 25%;
     float: left;

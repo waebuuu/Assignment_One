@@ -56,7 +56,7 @@ address
 }
 aside
 {
-    background-color: antiquewhite;
+    background-color: rgb(255, 241, 241);
     float: right;
     margin: 5px;
     padding: 5px;
@@ -68,26 +68,19 @@ aside
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    /*background-color: white;*/
+    /*background-color: rgb(255, 241, 241);*/
     background-color: rgb(255, 241, 241);
 }
 
 
-/* The right-column ID style is floated right */
-#right-column {
-    float: right;
-    width: 600px;
-    height: 600px;
-    background-color:rgb(255, 241, 241);
-}
 mark
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 241, 241);
 }
 figure
 {
     position: center;
-    background-color: white;
+    background-color: rgb(255, 241, 241);
     width: 270px;
     height: 270px;
     margin: 10px;
@@ -130,7 +123,7 @@ article
     float: left;
     width: 360px;
     background-color: rgb(250, 234, 177);
-    color: white;
+    color: rgb(255, 241, 241);
     height: 600px;
 }
 /* Defining a style for a set of tags separated by commas applies the style to all tags */
@@ -142,7 +135,7 @@ h1,h2,h3,h4,h5,h6,p,li {
 #footer {
     height: 80px;
     background-color: rgb(59, 2, 112);
-    color: white;
+    color: rgb(255, 241, 241);
     padding-top: 20px;
 }
 
@@ -155,7 +148,7 @@ h1,h2,h3,h4,h5,h6,p,li {
 
 /* Defining a style for a set of tags not separated by commas applies the style only to all tags within the preceding tag*/
 #banner h1 {
-    color: white;
+    color: rgb(255, 241, 241);
     padding-top: 30px;
 }
 
@@ -197,7 +190,7 @@ video
     padding: 15px;
     margin: 15px;
     background-color:black;
-    border:2px white solid;
+    border:2px rgb(255, 241, 241) solid;
     box-shadow: 10px 10px 5px black;
 }
 
@@ -208,7 +201,7 @@ background-color:rgb(111, 0, 255);
 margin: 15px;
 color:rgb(255, 241, 241);
 height:40px;
-border:2px white solid;
+border:2px rgb(255, 241, 241) solid;
 border-radius: 5px;
 }
 
@@ -218,7 +211,7 @@ button:hover
     background-color:rgb(59, 2, 112);
     color:rgb(255, 241, 241);
     height:40px;
-    border:2px white solid;
+    border:2px rgb(255, 241, 241) solid;
     box-shadow: -10px -10px 5px rgb(233, 179, 251);
     border-radius: 5px;
 }
