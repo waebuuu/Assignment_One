@@ -2,29 +2,6 @@
 @charset "UTF-8";
 /* Color Scheme : #6C2AF5, #AC93F4, #F46EE5, #F59F84, #F46175*/
 /* The body tag style applies to all elements on the page */
-.pt-serif-regular {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.pt-serif-bold {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.pt-serif-regular-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.pt-serif-bold-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: italic;
-}
 
 body {
     /*background-color: rgb(0, 0, 0);*/
@@ -51,9 +28,19 @@ nav.homenavi
   left: 760px;
  
 }
+.project-header 
+{
+    height: 200px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#38006d+0,fff1f1+100 */
+    background: linear-gradient(to bottom,  #38006d 0%,rgb(255, 241, 241) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
 header, footer
 {
-   background-color: white;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#38006d+1,38006d+1,fff1f1+40,fff1f1+60,38006d+100 */
+background: linear-gradient(to right,  #38006d 1%,#38006d 1%,#fff1f1 40%,#fff1f1 60%,#38006d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
    color: rgb(0, 0, 0); 
    padding-top: 5px;
    padding-bottom: 5px;
@@ -183,6 +170,7 @@ video
     border:2px white solid; 
     box-shadow: 10px 10px 5px black;
 }
+
 button 
 {
 background-color:black;

@@ -6,13 +6,12 @@
     <body>
         <div id="wrapper">
               <header>
-                <h1> Semantic Tag Lecture </h1>
-                <p>We are in header tag </p>
+                <h1> Contact Me </h1>
+                <p> Please leave your enquires below </p>
                 <nav>
                     <a href="index.html">Home Page</a> | 
                     <a href="About-Me.html">About Me Page</a> |
                     <a href="projects.html">My Projects</a> |  
-                    <a href="video.html">Video</a>
                 </nav>
             </header>
             <form action="mailto:zahra.mirza@ontariotechu.net?subject=Feedback from website"
@@ -24,12 +23,12 @@
                 placeholder="Enter your first name" required>
             </p>
             <p>
-                <label for="LName">Last Name: </label>
+                <label for="LName">Last Name:   </label>
                 <input type="text" name="LName" size="40"
                 placeholder="Enter your last name" required>
             </p>
             <p>
-                <label for="Email">Email: </label>
+                <label for="Email">Email:   </label>
                 <input type="email" name="Email" size="40"
                 placeholder="Enter your email address" required>
             </p>
@@ -38,46 +37,16 @@
                 <br>
                 <textarea name="comments" cols="60" rows="8"></textarea>
             </p>
-            <p>
-                <input type="checkbox" name="maillist">
-                <label for="maillist">Put me in your e-list</label>                
-            </p>
-            <p>
-                <label for="where">How did you find us</label>
-                <select name="where">
-                    <option value="Search Engine">Search Engine</option>
-                    <option value="Social Media">Social Media</option>
-                    <option value="Word of Mouth">Word of Mouth</option>
-                    <option value="Other">Other</option>
-                </select>
-            </p>
-            <p>
-                <label for="countries">Where do you live?</label> 
-                <input list="countries"> 
-                <datalist id="countries"> 
-                    <option value="Afghanistan"> 
-                    <option value="Albania"> 
-                    <option value="Algeria"> 
-                    <option value="Andorra"> 
-                    <option value="Angola"> 
-                    <option value="Antigua and Barbuda">
-                    <option value="Argentina"> 
-                    <option value="Armenia"> 
-                    <option value="Aruba"> 
-                    <option value="Australia"> 
-                    <option value="Austria"> 
-                    <option value="Azerbaijan"> 
-                </datalist>
-                <br><br>
+                <h3>Captcha</h3>
+                    <form onsubmit="return checkCaptcha()">
+                    <label for="captcha">What is 3 × 4?</label><br>
+                    <input type="number" id="captcha" name="captcha" required>
+                    </form>
+             
                 <input type="reset" value="Reset">
                 <input type="submit" value="Submit">
             </p>
-            </form>
-            <h3>Captcha</h3>
-            <form oninput="x.value=parseInt(a.value) + parseInt(b.value)">
-                <input type="number" id="a"> + <input type="number" id="b"> =
-                <output name="x" for="a b"></output>
-            </form>
+
         </div>
     </body>
 </html>
