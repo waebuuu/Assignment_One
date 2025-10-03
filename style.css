@@ -29,10 +29,10 @@
 body {
     /*background-color: rgb(0, 0, 0);*/
     background: rgb(59, 2, 112); 
-    background: -moz-linear-gradient(top, rgb(250, 235, 146) 0%, rgb(59, 2, 112) 100%); 
-    background: -webkit-linear-gradient(top, rgb(250, 235, 146) 0%, rgb(59, 2, 112) 100%); 
-    background: -o-linear-gradient(top, rgb(250, 235, 146) 0%, rgb(59, 2, 112) 100%); 
-    background: linear-gradient(to bottom, rgb(250, 235, 146) 0%, rgb(59, 2, 112) 100%);
+    background: -moz-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%); 
+    background: -webkit-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%); 
+    background: -o-linear-gradient(top, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%); 
+    background: linear-gradient(to bottom, rgb(111, 0, 255) 0%, rgb(59, 2, 112) 100%);
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -41,12 +41,13 @@ body {
 header.homepage 
 {
     background-color: rgb(252, 255, 155);
-    color: rgb(87, 18, 110); 
+    color: rgb(59, 2, 112); 
     padding-bottom: 50px;
 }
 nav.homenavi
 {
   position: fixed;
+  top: 100px; 
   left: 760px;
  
 }
@@ -72,11 +73,11 @@ aside
 /* The wrapper ID style is used with a div tag to provide a 960px wide page */
 #wrapper {
     width: 960px;
-    height: 800px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    /*background-color: blue;*/
-    background-color: rgb(255, 255, 255);
+    /*background-color: white;*/
+    background-color: rgb(255, 241, 241);
 }
 
 /* The right-column ID style is floated right */
@@ -84,7 +85,7 @@ aside
     float: right;
     width: 600px;
     height: 600px;
-    background-color: LightGray;
+    background-color:rgb(255, 241, 241);
 }
 mark
 {
@@ -119,7 +120,8 @@ article
 #left-column {
     float: left;
     width: 360px;
-    background-color: silver;
+    background-color: rgb(250, 234, 177);
+    color: white;
     height: 600px;
 }
 /* Defining a style for a set of tags separated by commas applies the style to all tags */
@@ -129,39 +131,45 @@ h1,h2,h3,h4,h5,h6,p,li {
 
 #footer {
     height: 80px;
+    background-color: rgb(59, 2, 112);
+    color: white;
+    padding-top: 20px;
 }
 
 #banner {
     height: 120px;
-    background-color: SlateGrey;
+    background: linear-gradient(45deg, rgb(233, 179, 251), rgb(111, 0, 255));
 }
 
 /* Defining a style for a set of tags not separated by commas applies the style only to all tags within the preceding tag*/
 #banner h1 {
     color: white;
+    padding-top: 30px;
 }
 
 /* Advanced Web design relies on class or ID styles, never tables */
-.box {
-    height: 100px;
-    width: 100px;
+.project-box {
     float: left;
-    background-color: rgb(73, 214, 54);
-    margin: 15px;
+    width: 48%;          
+    height: 250px;       
+    margin: 1%;
     padding: 25px;
-    opacity: .5;
-    border-radius: 75px;
+    opacity: .8;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgb(233, 179, 251);
+    border: 2px solid rgb(59, 2, 112);
 }
 
 /* The following pseudo-class applies to the box class when in a hovered state */
-.box:hover {
+.project-box:hover {
     opacity: 1;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+60,2ab0ed+100 */
-background: radial-gradient(ellipse at center,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 60%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+100,f8b500+98,fbdf93+77;Orange+3D+%235 */
+background: radial-gradient(ellipse at center,  #fceabb 0%,#fccd4d 100%,#f8b500 98%,#fbdf93 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
 
-/* This clear class style terminates float */
 .clear {
     clear: both;
 }
