@@ -82,9 +82,9 @@ figure
 {
     position: center;
     background-color: white;
-    width: 210px;
-    height: 210px;
-    margin: 20px;
+    width: 270px;
+    height: 270px;
+    margin: 10px;
     border: 2px solid black;
 
     align-items: center;        /* vertical center */
@@ -95,10 +95,22 @@ figcaption
     /*margin-top 1px;*/
     color: rgb(0, 0, 0);
 }
-p.caption
+.profile-pic 
 {
-    margin-top: 30px;
+    float:left;
+    margin: 10px;
+    text-align:center
 }
+
+.about-text 
+{
+    overflow: hidden;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
 article
 {
     height: 520px;
@@ -173,29 +185,21 @@ video
 
 button 
 {
-background-color:black;
+background-color:rgb(111, 0, 255);
 margin: 15px; 
-color:white;
+color:rgb(255, 241, 241);
 height:40px;
 border:2px white solid;
-/* offset-x: positive:right, negative:left */
-/* offset-y: positive:down, negative:up */
-/* blur-radius: */
-/* color */
-box-shadow: 10px 10px 5px black;
-/* to make rounded corners*/
-/* if its one value mena all four sides */
-/* top-left, top-right, bottom-right, bottom-left */
 border-radius: 5px;
 }
 
 button:hover 
 { 
-    background-color:beige; 
-    color:black; 
+    background-color:rgb(59, 2, 112); 
+    color:rgb(255, 241, 241); 
     height:40px; 
     border:2px white solid; 
-    box-shadow: -10px -10px 5px black; 
+    box-shadow: -10px -10px 5px rgb(233, 179, 251); 
     border-radius: 5px; 
 }
 
