@@ -42,7 +42,7 @@ footer nav a {
     min-height: 800px;   /* flexible */
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(111, 0, 255);
+    background: linear-gradient(120deg, rgb(111, 0, 255), rgb(59, 2, 112));
     overflow: auto;      /* contain floats */
 }
 

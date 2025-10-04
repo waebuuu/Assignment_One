@@ -1,10 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Feedback Form</title>
         <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" media="only screen and (min-width 960px)"  href="fluid.css"> 
-        <link rel="stylesheet" media="only screen and (min-width:481px) and (max-width:959px)"  href="tablet.css"> 
-        <link rel="stylesheet" media="only screen and (max-width:480px)" href="phone.css">
+        <link rel="stylesheet" media="screen and (min-width: 960px)" href="fluid.css"> 
+        <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 959px)" href="tablet.css"> 
+        <link rel="stylesheet" media="screen and (max-width: 480px)" href="phone.css">
     </head>
     <body>
         <div id="wrapper">
@@ -17,46 +18,44 @@
                     <a href="projects.html">My Projects</a>   
                 </nav>
             </header>
+
             <form action="mailto:zahra.mirza@ontariotechu.net?subject=Feedback from website"
-            enctype="text/plain" method="post" name="FeedbackForm"
-            >
+            enctype="text/plain" method="post" name="FeedbackForm">
+
             <p>
                 <label for="FName">First Name: </label>
-                <input type="text" name="FName" size="40"
-                placeholder="Enter your first name" required>
+                <input type="text" id="FName" name="FName" size="40" placeholder="Enter your first name" required>
             </p>
             <p>
-                <label for="LName">Last Name:   </label>
-                <input type="text" name="LName" size="40"
-                placeholder="Enter your last name" required>
+                <label for="LName">Last Name: </label>
+                <input type="text" id="LName" name="LName" size="40" placeholder="Enter your last name" required>
             </p>
             <p>
-                <label for="Email">Email:   </label>
-                <input type="email" name="Email" size="40"
-                placeholder="Enter your email address" required>
-            </p>
-             <p>
-                <label for="number">Phone Number: </label>
-                <input type="type" name="number" size="40"
-                placeholder="Enter phone number (no special chars)" required>
+                <label for="Email">Email: </label>
+                <input type="email" id="Email" name="Email" size="40" placeholder="Enter your email address" required>
             </p>
             <p>
-                <label for="comments">Comments: </label>
-                <br>
-                <textarea name="comments" cols="60" rows="8"></textarea>
+                <label for="Phone">Phone Number: </label>
+                <input type="tel" id="Phone" name="Phone" size="40" placeholder="Enter phone number (no special chars)" required>
             </p>
+            <p>
+                <label for="comments">Comments: </label><br>
+                <textarea id="comments" name="comments" cols="60" rows="8"></textarea>
+            </p>
+
                 <h3>Captcha</h3>
-                    <form onsubmit="return checkCaptcha()">
+                <p>
                     <label for="captcha">What is 3 × 4?</label><br>
                     <input type="number" id="captcha" name="captcha" required>
-                    </form>
-             
+                </p>
+
                 <input type="reset" value="Reset">
                 <input type="submit" value="Submit">
-            </p> 
+            </form>
+
              <footer>
                 <h5> © 2025 Zahra Mirza</h5>
-                <h5> Contact: <a href="mailto:zahra.mirza@ontariotechu.net"> zahra.mirza@ontariotechu.net </a></h5>
+               <form action="mailto:zahra.mirza@ontariotechu.net?subject=Feedback%20from%20website" enctype="text/plain" method="post" name="FeedbackForm">
                  <nav>
                     <a href="semantic.html">About Me</a> | 
                     <a href="contact.html">Feedback Form</a> | 

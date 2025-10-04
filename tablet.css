@@ -42,18 +42,16 @@ footer nav a {
     min-height: 800px;   /* was height: 800px */
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(111, 0, 255);
+    background: linear-gradient(120deg, rgb(111, 0, 255), rgb(59, 2, 112));
     overflow: auto;      /* contain floats */
 }
-
-
-
 
 #banner {
     min-height: 60px;    /* was height: 60px */
     background-color: black;
 }
 
+/* Footer adjustments */
 .project-box {
     float: none;
     width: 95%;     
@@ -64,10 +62,11 @@ footer nav a {
     color: rgb(59, 2, 112);
 }
 
+/* Button styling */
 .button {
     font-size: x-large;
     text-decoration: none;
-    background-color: rgb(250, 235, 146);
+    background-color: #faeb92;
     display: block;
     width: 25%;
     float: left;
